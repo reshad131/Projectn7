@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Marhey:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Marhey:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Marhey:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+ 
+body{
+    background-color: rgb(255, 255, 255);
+}
+img{
+    height: 60px;
+    width: 60px;
+}
+
+.container{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.colour{
+    background-color: #ff0000;
+}
+
+section{
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 15px;
+    }
+ul {
+    display: flex;
+    margin:5 px;
+    }
+
+li{
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+}
+    
+.galatasaray{
+    background-color: aqua;
+
+}
+.galatasaray{
+    background-image:url(/imgs/galatasaray-s-k-turkey-hd-wallpaper-preview.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    font-family: "Anta", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+h1{
+    font-family: "Playfair Display", serif;
+    color: rgb(255, 89, 0);
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 1px 1px yellow;
+}
+
+.product{
+    font-family: "Anta", sans-serif;
+    width: calc(25% - 10px);
+    background-color: rgb(234, 90, 90);
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(218, 134, 134);
+      
+}
+
+
+.products {
+   display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    gap: 10px;
+    
+}
+
+#pop1{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px 10px 0 0 ;
+}
+h3{
+ text-align: center;
+ 
+
+}
+
+.buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 20px ;
+}
+button {
+        background-color: #ff0000; 
+        border: none;
+        color: white;
+        padding: 3px 2px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 5px 5px;
+        font-family: "Playfair Display", serif;
+}
+button:hover{
+    color: aquamarine;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: aqua;
+}
